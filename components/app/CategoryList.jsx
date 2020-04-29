@@ -16,7 +16,7 @@ import Link from './Link';
 const CategoryTitle = styled(Text)`
   font-family: SF Pro Text;
   font-style: normal;
-  font-weight: 600;
+  font-weight: bold
   font-size: 16px;
   line-height: 19px;
   color: rgba(103, 128, 159, 1)
@@ -25,13 +25,14 @@ const CategoryTitle = styled(Text)`
 const CategoryNumber = styled(Text)`
   font-family: SF Pro Text;
   font-style: normal;
-  font-weight: bold;
-  font-size: 32px;
+  font-weight: 900;
+  font-size: 40px;
   line-height: 30px;
 
   text-align: center;
 
-  color: black;
+  color: white;
+  z-index: 5;
 `;
 
 const CategoryBox = styled(Box)`
