@@ -16,28 +16,23 @@ import Link from './Link';
 const CategoryTitle = styled(Text)`
   font-family: SF Pro Text;
   font-style: normal;
-  font-weight: 600;
+  font-weight: bold
   font-size: 16px;
   line-height: 19px;
-  color:black;
+  color: black;
 `;
 
 const CategoryNumber = styled(Text)`
   font-family: SF Pro Text;
   font-style: normal;
-  font-weight: bold;
-  font-size: 32px;
+  font-weight: 900;
+  font-size: 40px;
   line-height: 30px;
 
   text-align: center;
 
-  color: #FFFFFF;
-  text-shadow:
-		-1px -1px 0 rgba(103, 128, 159, 1),
-		1px -1px 0 rgba(103, 128, 159, 1),
-		-1px 1px 0 rgba(103, 128, 159, 1),
-		1px 1px 0 rgba(103, 128, 159, 1);
-  z-index: 5; /* Not sure why this is needed? ... Here come exponentially increasing z-index overrides... */
+  color: white;
+  z-index: 5;
 `;
 
 const CategoryBox = styled(Box)`
