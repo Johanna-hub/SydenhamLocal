@@ -31,7 +31,7 @@ const Header = () => {
   return (
       <Box>
       <HeaderContainer>
-       <HeaderTitle>Brixton</HeaderTitle>
+       <HeaderTitle>Sydenham</HeaderTitle>
        <HeaderTitle>Local.Life</HeaderTitle>
        <HeaderText>Getting the word out for the local community and businesses during the COVID-19 lockdown</HeaderText>
        </HeaderContainer>
