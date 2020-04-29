@@ -19,7 +19,7 @@ const CategoryTitle = styled(Text)`
   font-weight: 600;
   font-size: 16px;
   line-height: 19px;
-  color:black;
+  color: rgba(103, 128, 159, 1)
 `;
 
 const CategoryNumber = styled(Text)`
@@ -32,7 +32,6 @@ const CategoryNumber = styled(Text)`
   text-align: center;
 
   color: black;
-  
 `;
 
 const CategoryBox = styled(Box)`
