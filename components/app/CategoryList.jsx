@@ -32,6 +32,11 @@ const CategoryNumber = styled(Text)`
   text-align: center;
 
   color: #FFFFFF;
+  text-shadow:
+		-1px -1px 0 rgba(103, 128, 159, 1),
+		1px -1px 0 rgba(103, 128, 159, 1),
+		-1px 1px 0 rgba(103, 128, 159, 1),
+		1px 1px 0 rgba(103, 128, 159, 1);
   z-index: 5; /* Not sure why this is needed? ... Here come exponentially increasing z-index overrides... */
 `;
 
