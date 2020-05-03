@@ -2,9 +2,10 @@ require("dotenv").config()
 
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
+    title: `Sydenham Local.Life`,
     description: `Getting the word out for the local community and businesses during the COVID-19 lockdown`,
-    author: `@gatsbyjs`,
+    image: "/images/sydenham.jpeg",
+    url: "https://www.sydenhamlocal.life"
   },
   plugins: [
     {
