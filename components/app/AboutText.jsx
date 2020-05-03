@@ -32,8 +32,7 @@ const About = () => {
         <AboutText>The information on this website is crowd-sourced using a Google spreadsheet. To add an entry or update an existing one please email <AboutLink href = "mailto: lauracatherinewalters@gmail.com">Laura</AboutLink> or <AboutLink href = "mailto: joetuoya@gmail.com">Tuoya</AboutLink>.</AboutText>
         <AboutText><AboutLink href="https://www.lovelocal.life/">LoveLocal.Life</AboutLink> supports local communities during the COVID-19 lockdown by helping them easily set up websites that spread the word about independent businesses and services in their area.</AboutText>  
         <AboutText>This includes businesses that are still operational, new delivery services and other activities, such as community groups and local support.</AboutText>
-        <AboutText>To set up a similar project in your area please go to the <AboutLink href="https://www.lovelocal.life/">LoveLocal.Life</AboutLink> website.</AboutText>
-        <AboutText>To get in contact please  <AboutLink href = "mailto: brixtonlocal@gmail.com">email</AboutLink> us.</AboutText>
+        <AboutText>To set up a similar project in your area please go to the <AboutLink href="https://www.lovelocal.life/">LoveLocal.Life</AboutLink> website or <AboutLink href = "mailto: brixtonlocal@gmail.com">email</AboutLink> us.</AboutText>
         </AboutContainer>
       </Box>
   )
