@@ -27,7 +27,7 @@ const About = () => {
   return (
       <Box>
         <AboutContainer>
-        <AboutText>Sydenham Local.Life is part of the <AboutLink href="https://www.lovelocal.life/">LoveLocal.Life</AboutLink> project.  Check out the <AboutLink href="https://www.brixtonlocal.life/">Brixton</AboutLink> and <AboutLink href="https://www.lewishamlocal.life/">Lewisham</AboutLink> sites!</AboutText>
+        <AboutText>Sydenham Local.Life is part of the <AboutLink href="https://www.lovelocal.life/">LoveLocal.Life</AboutLink> project.  Check out the <AboutLink href="https://www.brixtonlocal.life/">Brixton</AboutLink>, <AboutLink href="https://www.lewishamlocal.life/">Lewisham</AboutLink>, <AboutLink href="https://www.wokinghamlocal.life/">Wokingham</AboutLink> and <AboutLink href="https://www.winchmorehilllocal.life/">Winchmore Hill</AboutLink> sites!</AboutText>
         <AboutText>Laura Walters and Tuoya Joe coordinated the entries for Sydenham.</AboutText>
         <AboutText>The information on this website is crowd-sourced using a Google spreadsheet. To add an entry or update an existing one please email <AboutLink href = "mailto: lauracatherinewalters@gmail.com">Laura</AboutLink> or <AboutLink href = "mailto: joetuoya@gmail.com">Tuoya</AboutLink>.</AboutText>
         <AboutText><AboutLink href="https://www.lovelocal.life/">LoveLocal.Life</AboutLink> supports local communities during the COVID-19 lockdown by helping them easily set up websites that spread the word about independent businesses and services in their area.</AboutText>  
