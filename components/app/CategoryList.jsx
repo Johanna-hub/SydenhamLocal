@@ -16,23 +16,24 @@ import Link from './Link';
 const CategoryTitle = styled(Text)`
   font-family: SF Pro Text;
   font-style: normal;
-  font-weight: bold
+  font-weight: 600;
   font-size: 16px;
   line-height: 19px;
-  color: black;
+  color:black;
 `;
 
 const CategoryNumber = styled(Text)`
   font-family: SF Pro Text;
   font-style: normal;
-  font-weight: 900;
-  font-size: 40px;
+  font-weight: bold;
+  font-size: 32px;
   line-height: 30px;
 
   text-align: center;
 
-  color: white;
-  z-index: 5;
+  color: #FFFFFF;
+  z-index: 999; /* Not sure why this is needed? ... Here come exponentially increasing z-index overrides... */
+  pointer-events: none;
 `;
 
 const CategoryBox = styled(Box)`
@@ -54,7 +55,7 @@ const CategoryImage = ({ source, count, ...props }) => (
   >
     <FillBox />
     <FillImage source={source} />
-    <Box justifyContent="center" flex={1} backgroundImage={source}>
+    <Box py={[null, 'calc(50% - 30px)']} justifyContent="center" flex={1}>
       {count && (
         <CategoryNumber>
           {count}
@@ -65,13 +66,14 @@ const CategoryImage = ({ source, count, ...props }) => (
 );
 CategoryImage.defaultProps = {
   minWidth: 100,
-  height: [80, 100, 120],
+  // height: [80, 100, 120],
+  height: [80, 'auto'],
 };
 
 const CategoryTile = ({ item: { name, count, source }, ...props }) => (
   <Box {...props} flex={[null, 1]} style={{ textAlign: 'center' }}>
     <Link to={`/category/${_.kebabCase(name)}`} style={{ textDecoration: 'none' }}>
-      <CategoryImage count={count} source={source} />
+      <CategoryImage pb={3} count={count} source={source} />
       <CategoryTitle my={1}>
         {name}
       </CategoryTitle>
